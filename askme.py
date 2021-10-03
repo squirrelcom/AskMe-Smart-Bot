@@ -19,6 +19,10 @@ async def on_ready():
 async def scream(context):
         await context.send('AAAAAAAAAHHHHHHHHHHHHHH')
 
+@bot.command()
+async def hellojohn(context):
+        await context.send('Hello Iam J.O.H.N')
+
 
 ###################
 # Smart commands? #
